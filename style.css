@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(Bit-back2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 125px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
+}
+nav ul li a:hover{
+    color: lightsteelblue;
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+nav .btn:hover{
+    color:firebrick;
+    background-color:#ff960b;
+    border: 1px solid firebrick;
+    transform: scale(1.1);
+}
+.content{
+    margin-top: 10%;
+    color: lightsteelblue;
+    margin-left: 80px;
+}
+.content h4 a{
+    color: lightsteelblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content h4 a:hover{
+    text-decoration: underline;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+}
+.content h1{
+    color: #ff960b;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px white;
+}
+.content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff960b;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.content .btn:hover{
+    border: 1px solid #ff960b;
+    color:#ff960b;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: firebrick;
+    border: 1px solid firebrick;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:goldenrod;
+    text-shadow: 1px 1px 1px red;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.coin h3{
+    color: firebrick;
+    margin-bottom: 5px;
+}
+.info{
+    margin-top: 110px;
+    width: 100%;
+    height: 180px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #d67900;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(./Bit-back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color:#ff960b;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+}
+.banner p{
+    color: lightsteelblue;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.start{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+.start img{
+    border-radius: 100%;
+    width: 100px;
+}
+.start a{
+    text-decoration: none;
+    color: white;
+}
+.start a:hover{
+    color:mediumslateblue;
+}
+.banner-2{
+    width: 100%;
+    height: 320px;
+    padding-top: 70px;
+    background-color: #d67900;
+}
+.banner-2 h1{
+    color:black;
+    font-size: 40px;
+    margin-left: 40px;
+    text-shadow: 5px 5px 5px grey;
+}
+.end{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.end img{
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.end .fi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fi h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow:4px 4px 4px grey;
+}
+.fi p{
+    margin-bottom: 10px;
+}
+.fi a{
+    text-decoration: none;
+    color: white;
+}
+.fi a:hover{
+    color:rgb(38, 0, 255);
+}
+.banner-3{
+    width: 100%;
+    height: 320px;
+    padding-top: 70px;
+    background-image: url(./Bit-back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.banner-3 h1{
+    font-size: 60px;
+    color: #ff960b;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px white;
+}
+.banner-3 .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.banner-3 .btn:hover{
+    color:firebrick;
+    background-color:#ff960b;
+    border: 1px solid firebrick;
+    transform: scale(1.1);
+}
+.box{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #ff960b;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.box h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px grey;
+    margin-bottom: 50px;
+}
+.box ul li{
+    line-height: 3em;
+}
+.box ul li a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+.box ul li a:hover{
+    text-transform: uppercase;
+    color: rgb(38, 0, 255);
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-image: url(./Bit-back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ff960b;
+    text-align: center;
+}
+footer h1{
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px white;
+}
+footer p{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    color:burlywood;
+}
+.copyright{
+    padding-top: 90px;
+    color: gainsboro;
+}
+@media screen and (max-width: 1150px){
+    nav ul li{
+        font-size: 14px;
+        margin-left: 1px;
+
+    }
+    .content{
+        margin-left: 40px;
+    }
+    .content h1{
+        font-size: 80px;
+    }
+    .coin-list .coin{
+        padding: 4px;
+        margin-right: 0px;
+    }
+    .banner-2 .fi h3 a{
+        font-size: 15px;
+    }
+    .banner-2 p{
+        font-size: 13px;
+    }
+    .banner-2 img{
+        width: 80px;
+    }
+    .banner-2 .fi{
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 967px){
+    .coin-list .coin{
+        padding: 4px;
+        margin-right: 0px;
+    }
+    .banner-2 .fi h3 a{
+        font-size: 15px;
+    }
+    .banner-2 p{
+        font-size: 12px;
+    }
+    .banner-2 img{
+        width: 80px;
+    }
+    .banner-2 .fi{
+        padding: 2px;
+    }
+    nav ul li{
+        font-size: 13px;
+        margin-left: 1px;
+
+    }
+}
